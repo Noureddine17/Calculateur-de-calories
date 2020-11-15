@@ -1,0 +1,120 @@
+<html>
+	
+	<head>
+	
+	<meta charset="utf-8" />
+	
+    <link rel="stylesheet" type="text/css" href="static/index.css" />
+	
+    <title> Projet </title>
+	
+	</head>
+	
+<body>
+	
+	<h1 class="title1"> <u></b>Calculateur de Calories</u></b> </h1>
+	
+	<br>
+	
+	
+	<form action="/resultat" method="post">
+	
+		<div id ="cadre">
+	
+			<br>
+	
+	<h2 class="title"> <span> Information Personnelles : </span> </h2>
+	
+				<div id="ajout">
+					<label for="tailles">Tailles :</label>
+					<input type="number" placeholder= "En cm" name="tailles" required/>
+				</div>
+				
+			<br>
+			
+				<div id="ajout">
+					<label for="poids">Poids :</label>
+					<input type="number" placeholder= "En kg" name="poids" required/>
+				</div>
+	
+			<br>
+	
+				<div id ="ajout">
+					<label for="age">Âge :</label>
+					<input type="number" placeholder= "Âge" name="age" required/>
+				</div>
+	
+			<br>
+	
+	<h3 class="title"> <span> Sexe : </span> </h3>
+	
+				<div id="ajout" class="button-radio float-left">
+					<label for="sexe"> Homme </label>
+					<input type ="radio" name="sexe" id="sexe:Homme" value="Homme"required/>
+				</div>
+
+	
+				<div id="ajout" class="button-radio float-left">
+					<label for ="sexe"> Femme </label>
+					<input type="radio" name="sexe"  id="sexe:Femme" value="Femme"required/>
+				</div>
+
+			<br>
+	
+	<h4 class="title"> <span> Activité Physique : </span> </h4>
+	
+				<div id="ajout" class="button-radio float-left">
+						<label for ="niveau"> Sedentaire</label>
+						<input type="radio" name="niveau"  id="niveau:Sedentaire" value="Sedentaire"required/>
+				</div>
+	
+				<div id="ajout" class="button-radio float-left">
+						<label for ="niveau"> Legerement actif </label>
+						<input type="radio" name="niveau"  id="niveau:Legerement actif" value="Legerement actif"required/>
+				</div>
+			
+				<div id="ajout" class="button-radio float-left">
+						<label for ="niveau"> Actif </label>
+						<input type="radio" name="niveau"  id="niveau:Actif" value="Actif"required/>
+				</div>
+	
+				<div id="ajout" class="button-radio float-left">
+						<label for ="niveau"> Tres Actif </label>
+						<input type="radio" name="niveau"  id="niveau:Tres Actif" value="Tres Actif"required/>
+				</div>
+	
+				<div id="ajout" class="button-radio float-left">
+						<label for ="niveau"> Extremement actif  </label>
+						<input type="radio" name="niveau"  id="niveau:Extremement actif" value="Extremement actif"required/>
+				</div>
+	
+			<br>
+	
+	<h5 class="title"> <span> Objectif : </span> </h5>
+	
+				<div id="ajout" class="button-radio float-left">
+						<label for ="objectif"> Perte de Poids  </label>
+						<input type="radio" name="objectif"  id="objectif:Perte de Poids" value="Perte de Poids"required/>
+				</div>
+	
+				<div id="ajout" class="button-radio float-left">
+						<label for ="objectif"> Garder la Ligne  </label>
+						<input type="radio" name="objectif"  id="objectif:Garder la ligne" value="Garder la Ligne"required/>
+				</div>
+	
+				<div id="ajout" class="button-radio float-left">
+						<label for ="objectif"> Prise de Masse </label>
+						<input type="radio" name="objectif"  id="objectif:Prise de Masse" value="Prise de Masse"required/>
+				</div>
+
+			<br>
+			
+				<input type ="submit" value="Valider"/>
+	
+	</form>
+	
+	</div>
+	
+</body>
+
+</html>
